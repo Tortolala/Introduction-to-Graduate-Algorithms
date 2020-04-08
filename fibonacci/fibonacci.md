@@ -43,4 +43,4 @@ Fibonacci(n):
 
 As seen, this approach uses the recursive nature of the fibonacci sequence, but it does not uses recursion at all. Instead of start solving the problem top-down as a recursive tree would do, it solves the subproblems ascendantly until it reaches the n<sup>th</sup> number.
 
-This little but elegant shift in paradigm takes our previous exponential time complexity to a linear one created by the *for* loop. Having then: *O(n) = n*. Its python implementation can be found [here](https://github.com/Tortolala/Introduction-to-Graduate-Algorithms/blob/master/fibonacci/fibonacci_dynamic.py).
+This little but elegant shift in paradigm takes our previous exponential time complexity to a linear one created by the *for* loop. Having then: *O(n)*. Its python implementation can be found [here](https://github.com/Tortolala/Introduction-to-Graduate-Algorithms/blob/master/fibonacci/fibonacci_dynamic.py).
